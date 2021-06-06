@@ -1,3 +1,8 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solution
+ *  Copyright 2021 Alex Goodwin
+ */
+
 package org.example;
 
 import java.util.Scanner;
@@ -5,8 +10,13 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args){
         Scanner yesno= new Scanner(System.in);
+
         System.out.print("Is the car silent when you turn the key? ");
+
+
         String a = yesno.nextLine();
+
+
         if(a.matches("y")){
             System.out.print("Are the battery terminals corroded? ");
             a = yesno.nextLine();
